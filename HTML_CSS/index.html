@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task Zettabyte || HTML_CSS</title>
+
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet" />
+
+		<!-- icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+		<!-- custom CSS -->
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="card-1">
+				<div class="header"></div>
+				<div class="content">
+					<h4>Pura tanah lot</h4>
+					<h6 class="subtitle">Kabupaten Tabanan,Bali</h6>
+					<h5 class="main">Tanah Lot jika diterjemahkan ke bahasa Indonesia artinya daratan di tengah laut. Tanah berarti daratan, Lot artinya laut.</h5>
+					<div class="action">
+						<a href="#"><h5>SHARE</h5></a>
+						<span></span>
+						<a href="#" class="open-modal"><h5>EXPLORE</h5></a>
+
+						<i class="bi bi-chevron-down"></i>
+					</div>
+				</div>
+			</div>
+			<div class="card-2">
+				<div class="header"></div>
+				<div class="content">
+					<h4>Pura Uluwatu</h4>
+					<h6 class="subtitle">Kabupaten Badung,Bali</h6>
+					<h5 class="main">Pura Luhur Uluwatu selalu menjadi tempat wisata populer untuk wisatawan yang pertama kali liburan ke pulau Bali.</h5>
+					<a href="#"><h5>SHARE</h5></a>
+					<span></span>
+					<a href="#" class="open-modal-2"><h5>EXPLORE</h5></a>
+					<i class="bi bi-chevron-down"></i>
+				</div>
+			</div>
+			<div class="card-3">
+				<div class="header">
+					<img src="image/profil.PNG" alt="" srcset="" width="20%" />
+					<span>
+						<h5>
+							Jhon chena
+							<p>20 mins ago</p>
+						</h5>
+					</span>
+				</div>
+				<img src="image/card_2.jpg" alt="" srcset="" width="100%" />
+				<div class="content">
+					<h4>Pantai Kuta</h4>
+					<h6 class="subtitle">Kabupaten Badung,Bali</h6>
+					<h5 class="main">Objek wisata pantai Kuta akan selalu masuk dalam daftar tempat wisata di kunjungi di pulau Bali bagi wisatawan yang pertama kali liburan ke Bali.</h5>
+				</div>
+			</div>
+			<div class="card-4">
+				<div class="header"></div>
+				<div class="content">
+					<i class="bi bi-heart-fill"></i>
+					<i class="bi bi-bookmark-fill"></i>
+					<i class="bi bi-geo-alt"></i>
+				</div>
+			</div>
+		</div>
+
+		<div class="bg-modal">
+			<div class="modal">
+				<div class="head-modal">
+					<h2>Pura Tanah Lot</h2>
+					<svg class="close-modal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</div>
+				<div class="body-modal">
+					<h6>
+					Nomer 1 dalalam daftar 20 tempat wisata untuk dikunjungi Bali adalah pura Tanah Lot Bali. Selanjutnya, Tanah Lot jika diterjemahkan ke bahasa Indonesia artinya daratan di tengah laut. Tanah berarti daratan, Lot artinya laut.
+
+					Sesuai dengan namanya, saat anda liburan ke pura Tanah Lot, anda akan menemukan pura yang berada di atas batu karang besar dengan latar belakang laut selatan. Batu karang besar ini berada di tengah laut. Kemudian, pada saat air pasang, batu karang terlihat terpisah dengan daratan.
+
+					Daya tarik utama dari Tanah Lot temple terdapat pada keindahan pemandangan matahari terbenam, dengan siluet pura Tanah Lot. Berpadu dengan ombak laut selatan yang menerjang batu karang. Saat momen ini, akan terlihat banyak wisatawan yang akan mengambil foto dengan latar belangkang pura Tanah Lot.
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bg-modal-2">
+			<div class="modal-2">
+				<div class="head-modal-2">
+					<h2>Pantai Uluwatu</h2>
+					<svg class="close-modal-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+					</svg>
+				</div>
+				<div class="body-modal-2">
+					<h6>
+					Pura Luhur Uluwatu selalu menjadi tempat wisata populer untuk wisatawan yang pertama kali liburan ke pulau Bali. Hal menarik yang wisatawan dapat lihat di pura Uluwatu seperti;
+
+					Lokasi pura yang berada di ujung atas tebing tinggi, dengan ketinggian tebing sekitar 70 meter dari permukaan air laut.
+					Keunikan arsitektur pura.
+					Terdapat banyak kera ekor panjang sekitar area pura seperti kera yang ada di Monkey Forest Ubud.
+					Dari atas tebing wisatawan dapat melihat pemandangan samudra Hindia.
+					Menjelang sunset, wisatawan dapat menyaksikan pemandangan sunset Samudera Hindia dari atas tebing tanpa halangan.
+					Lokasi menonton tari Kecak Api yang paling terkenal di pulau Bali.
+					</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			const bgModal = document.querySelector('.bg-modal');
+			const openModal = document.querySelector('.open-modal');
+			const closeModal = document.querySelector('.close-modal');
+
+			openModal.addEventListener('click', function () {
+				bgModal.classList.add('show');
+			});
+
+			closeModal.addEventListener('click', function () {
+				bgModal.classList.remove('show');
+			});
+			
+			const bgModal2 = document.querySelector('.bg-modal-2');
+			const openModal2 = document.querySelector('.open-modal-2');
+			const closeModal2 = document.querySelector('.close-modal-2');
+
+			openModal2.addEventListener('click', function () {
+				bgModal2.classList.add('show');
+			});
+
+			closeModal2.addEventListener('click', function () {
+				bgModal2.classList.remove('show');
+			});
+		</script>
+	</body>
+</html>
